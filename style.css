@@ -1,0 +1,43 @@
+.title{text-align: center; 
+    justify-content: center;
+    font-size:35px;
+    padding:25px;
+    background-color: rgb(0, 2, 116);
+    color: white;
+    width: auto;
+    }
+
+body{background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 0%, rgba(26,116,134,1) 100%); width: auto; justify-content: center; align-items: center; height: 3000px;}
+.container{
+    border-style: ridge;
+    border-radius: 80px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    background-color: rgb(87, 22, 22);}
+     
+.stopwatch{
+    font-size: 200px;
+    font-weight: bold;
+    color: white;
+    border-style: ridge;
+    background-color: black;
+    border-radius: 15px;
+    margin:0px 10px;}
+button{margin: 10px;}
+.millisec{color: white;
+    margin-left: 670px;
+    font-size: 50px;
+    background-color: black;
+    width: 125px;
+    text-align: center;
+    border-radius: 100px;
+    border-style: ridge;}       
+.startbuttom{font-size: 30px; margin-left: 15px;border-radius: 50px;}
+.pausebuttom{font-size: 30px; margin-left: 15px;border-radius: 50px}
+.continuebuttom{font-size: 30px; margin-left: 15px;border-radius: 50px}
+.restartbuttom{font-size: 30px; margin-left: 15px;border-radius: 50px}
+.btn-secondary{background-color: #191d46;}
